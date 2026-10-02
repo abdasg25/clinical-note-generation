@@ -1,0 +1,32 @@
+# Data (too large)
+data/raw/
+data/processed/
+*.csv.gz
+*.h5
+
+# Models
+models/checkpoints/
+models/pretrained/
+*.bin
+*.pt
+
+# Python
+__pycache__/
+*.pyc
+venv/
+.venv/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Secrets
+.env
+secrets.json
